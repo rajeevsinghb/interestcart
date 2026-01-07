@@ -7,11 +7,11 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="Make interest work in your favor"
+      subtitle="Join early access to InterestCart and get smarter tools for loans, EMIs, and financial decisions — before everyone else."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <Button>Get Started</Button>
+        <Link href="#early-access">
+          <Button>Get Early Access</Button>
         </Link>
       }
     />
