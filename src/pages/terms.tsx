@@ -4,10 +4,10 @@ const Terms = () => {
       <h1 className="mb-8 text-3xl font-semibold">Terms of Service</h1>
 
       <p className="mb-4">
-        These Terms of Service ("Terms") govern your access to and use of the
-        InterestCart website, tools, calculators, content, and related services
-        (collectively, the "Platform"). By accessing or using InterestCart, you
-        agree to be bound by these Terms.
+        These Terms of Service (&quot;Terms&quot;) govern your access to and use
+        of the InterestCart website, tools, calculators, content, and related
+        services (collectively, the &quot;Platform&quot;). By accessing or using
+        InterestCart, you agree to be bound by these Terms.
       </p>
 
       <p className="mb-8">
