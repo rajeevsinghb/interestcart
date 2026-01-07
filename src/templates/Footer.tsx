@@ -13,23 +13,33 @@ const Footer = () => (
         iconList={<>{/* Social icons can be enabled later */}</>}
       >
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </li>
 
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </li>
 
         <li>
-          <Link href="/privacy">Privacy Policy</Link>
+          <Link href="/privacy">
+            <a>Privacy Policy</a>
+          </Link>
         </li>
 
         <li>
-          <Link href="/terms">Terms of Service</Link>
+          <Link href="/terms">
+            <a>Terms of Service</a>
+          </Link>
         </li>
 
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
         </li>
       </CenteredFooter>
     </Section>
