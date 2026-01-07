@@ -17,6 +17,10 @@ const Footer = () => (
         </li>
 
         <li>
+          <Link href="/about">About</Link>
+        </li>
+
+        <li>
           <Link href="/privacy">Privacy Policy</Link>
         </li>
 
@@ -27,10 +31,7 @@ const Footer = () => (
         <li>
           <Link href="/contact">Contact</Link>
         </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-          </CenteredFooter>
+      </CenteredFooter>
     </Section>
   </Background>
 );
