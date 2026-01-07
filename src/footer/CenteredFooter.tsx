@@ -10,31 +10,35 @@ type ICenteredFooterProps = {
 };
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
-  <div className="text-center">
-    {props.logo}
+  <footer className="text-center">
+    {/* Logo */}
+    <div>{props.logo}</div>
 
-    <nav>
-      <ul className="navbar mt-5 flex flex-row justify-center text-xl font-medium text-gray-800">
+    {/* Navigation Links */}
+    <nav aria-label="Footer navigation">
+      <ul className="navbar mt-5 flex flex-row flex-wrap justify-center text-base font-medium text-gray-700">
         {props.children}
       </ul>
     </nav>
 
+    {/* Social / Icon List */}
     <div className="mt-8 flex justify-center">
       <FooterIconList>{props.iconList}</FooterIconList>
     </div>
 
-    <div className="mt-8 text-sm">
+    {/* Copyright – SINGLE SOURCE OF TRUTH */}
+    <div className="mt-8">
       <FooterCopyright />
     </div>
 
     <style jsx>
       {`
         .navbar :global(li) {
-          @apply mx-4;
+          @apply mx-4 my-2;
         }
       `}
     </style>
-  </div>
+  </footer>
 );
 
 export { CenteredFooter };

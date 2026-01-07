@@ -23,14 +23,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Smart interest decisions start with\n'}
-            <span className="text-primary-500">InterestCart</span>
+            {'Clear answers for\n'}
+            <span className="text-primary-500">interest, banking & loans</span>
           </>
         }
-        description="Compare, calculate, and understand interest across loans, EMIs, credit cards, and investments — all in one place."
+        description="InterestCart helps you avoid hidden bank rules, confusing fine print, and misleading rates. Get clear, accurate results with smart filters and calculators — fast."
         button={
           <Link href="#early-access">
-            <Button xl>Join Early Access</Button>
+            <Button xl>Get Clear Financial Answers</Button>
           </Link>
         }
       />

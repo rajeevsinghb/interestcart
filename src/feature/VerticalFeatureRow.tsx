@@ -23,14 +23,14 @@ const VerticalFeatureRow = ({
   const router = useRouter();
 
   return (
-    <div className={verticalFeatureClass}>
+    <section className={verticalFeatureClass}>
       {/* Text Content */}
-      <div className="w-full text-center sm:w-1/2 sm:px-8">
+      <div className="w-full text-center sm:w-1/2 sm:px-10">
         <h3 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
           {title}
         </h3>
 
-        <p className="mt-6 text-lg leading-relaxed text-gray-600">
+        <p className="mt-6 text-base leading-relaxed text-gray-600 sm:text-lg">
           {description}
         </p>
       </div>
@@ -40,11 +40,12 @@ const VerticalFeatureRow = ({
         <img
           src={`${router.basePath}${image}`}
           alt={imageAlt}
-          className="mx-auto max-w-full rounded-lg shadow-sm"
+          className="mx-auto max-w-full rounded-xl shadow-sm"
           loading="lazy"
+          decoding="async"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
