@@ -31,6 +31,9 @@ const Footer = () => (
         <li>
           <Link href="/contact">Contact</Link>
         </li>
+        <li>
+          <a href="/about">Contact</a>
+        </li>
       </CenteredFooter>
     </Section>
   </Background>
