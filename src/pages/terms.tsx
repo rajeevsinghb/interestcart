@@ -3,7 +3,6 @@ const Terms = () => {
     <main className="mx-auto max-w-5xl px-4 py-16 text-gray-800">
       <h1 className="mb-8 text-3xl font-semibold">Terms of Service</h1>
 
-      {/* Introduction */}
       <p className="mb-4">
         These Terms of Service ("Terms") govern your access to and use of the
         InterestCart website, tools, calculators, content, and related services
@@ -16,7 +15,6 @@ const Terms = () => {
         use of the Platform immediately.
       </p>
 
-      {/* Nature of Service */}
       <h2 className="mb-3 text-2xl font-semibold">
         Nature and Scope of the Platform
       </h2>
@@ -33,7 +31,6 @@ const Terms = () => {
         financial, legal, investment, or tax advice.
       </p>
 
-      {/* Eligibility */}
       <h2 className="mb-3 text-2xl font-semibold">Eligibility to Use</h2>
 
       <p className="mb-8">
@@ -43,7 +40,6 @@ const Terms = () => {
         international regulations.
       </p>
 
-      {/* User Responsibilities */}
       <h2 className="mb-3 text-2xl font-semibold">User Responsibilities</h2>
 
       <p className="mb-4">
@@ -56,7 +52,6 @@ const Terms = () => {
         provided on InterestCart is done at your own risk.
       </p>
 
-      {/* Calculators */}
       <h2 className="mb-3 text-2xl font-semibold">
         Use of Calculators and Tools
       </h2>
@@ -71,7 +66,6 @@ const Terms = () => {
         eligibility criteria, repayment behavior, or bank-specific policies.
       </p>
 
-      {/* Accuracy */}
       <h2 className="mb-3 text-2xl font-semibold">
         Information Accuracy and Updates
       </h2>
@@ -83,7 +77,6 @@ const Terms = () => {
         accuracy.
       </p>
 
-      {/* Third Party */}
       <h2 className="mb-3 text-2xl font-semibold">
         Third-Party Content and Services
       </h2>
@@ -94,7 +87,6 @@ const Terms = () => {
         is not responsible for their availability, accuracy, or practices.
       </p>
 
-      {/* Intellectual Property */}
       <h2 className="mb-3 text-2xl font-semibold">
         Intellectual Property Rights
       </h2>
@@ -106,7 +98,6 @@ const Terms = () => {
         prohibited.
       </p>
 
-      {/* Prohibited Use */}
       <h2 className="mb-3 text-2xl font-semibold">Prohibited Activities</h2>
 
       <p className="mb-4">
@@ -120,7 +111,6 @@ const Terms = () => {
         <li>Using the Platform for unlawful purposes</li>
       </ul>
 
-      {/* Limitation of Liability */}
       <h2 className="mb-3 text-2xl font-semibold">Limitation of Liability</h2>
 
       <p className="mb-8">
@@ -129,7 +119,6 @@ const Terms = () => {
         arising from the use of or inability to use the Platform.
       </p>
 
-      {/* Indemnification */}
       <h2 className="mb-3 text-2xl font-semibold">Indemnification</h2>
 
       <p className="mb-8">
@@ -138,7 +127,6 @@ const Terms = () => {
         violation of these Terms.
       </p>
 
-      {/* Termination */}
       <h2 className="mb-3 text-2xl font-semibold">Suspension or Termination</h2>
 
       <p className="mb-8">
@@ -147,7 +135,6 @@ const Terms = () => {
         these Terms or misuse of the Platform.
       </p>
 
-      {/* Jurisdiction */}
       <h2 className="mb-3 text-2xl font-semibold">
         Governing Law and Jurisdiction
       </h2>
@@ -158,7 +145,6 @@ const Terms = () => {
         applicable legal framework.
       </p>
 
-      {/* Changes */}
       <h2 className="mb-3 text-2xl font-semibold">Changes to These Terms</h2>
 
       <p className="mb-8">
@@ -167,7 +153,6 @@ const Terms = () => {
         Terms.
       </p>
 
-      {/* Closing */}
       <p className="text-gray-600">
         InterestCart exists to provide clarity and understanding, not to replace
         professional advice or official communication from financial
