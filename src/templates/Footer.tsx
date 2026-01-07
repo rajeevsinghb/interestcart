@@ -27,13 +27,10 @@ const Footer = () => (
         <li>
           <Link href="/contact">Contact</Link>
         </li>
-
         <li>
-          <span className="text-sm text-gray-500">
-            © {new Date().getFullYear()} InterestCart. All rights reserved.
-          </span>
+          <a href="/about">About</a>
         </li>
-      </CenteredFooter>
+          </CenteredFooter>
     </Section>
   </Background>
 );
