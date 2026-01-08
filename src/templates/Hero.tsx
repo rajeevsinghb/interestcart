@@ -17,7 +17,7 @@ const Hero = () => (
     </Section>
 
     {/* Hero Content */}
-    <Section yPadding="pt-16 pb-24 sm:pt-20 sm:pb-28">
+    <Section yPadding="pt-12 pb-16 sm:pt-14 sm:pb-20">
       <HeroOneButton
         title={
           <>
