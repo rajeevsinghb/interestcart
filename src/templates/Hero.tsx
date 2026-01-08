@@ -8,29 +8,27 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-white">
+    {/* Navbar */}
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="#features">Features</Link>
-        </li>
-        <li>
-          <Link href="#early-access">Early Access</Link>
-        </li>
+        <span /> {/* REQUIRED children — DO NOT REMOVE */}
       </NavbarTwoColumns>
     </Section>
-    <Section yPadding="pt-16 pb-24 sm:pt-20 sm:pb-32">
+
+    {/* Hero Content */}
+    <Section yPadding="pt-16 pb-24 sm:pt-20 sm:pb-28">
       <HeroOneButton
         title={
           <>
-            {'Clear answers for\n'}
-            <span className="text-primary-500">interest, banking & loans</span>
+            {'Calculate EMI & Interest\n'}
+            <span className="text-primary-500">without bank tricks</span>
           </>
         }
-        description="InterestCart helps you avoid hidden bank rules, confusing fine print, and misleading rates. Get clear, accurate results with smart filters and calculators — fast."
+        description="See exact EMI, total interest, and true loan cost in seconds. No hidden charges. No confusing bank math."
         button={
-          <Link href="#early-access">
-            <Button xl>Get Clear Financial Answers</Button>
+          <Link href="#calculator">
+            <Button xl>Start EMI Calculator →</Button>
           </Link>
         }
       />
@@ -38,4 +36,4 @@ const Hero = () => (
   </Background>
 );
 
-export { Hero };
+export default Hero;
