@@ -10,28 +10,41 @@ import { Logo } from './Logo';
 const Hero = () => (
   <Background color="bg-white">
     {/* Navbar */}
-    <Section yPadding="py-6">
+    <Section yPadding="py-5">
       <NavbarTwoColumns logo={<Logo xl />}>
-        <span /> {/* REQUIRED children — DO NOT REMOVE */}
+        <span />
       </NavbarTwoColumns>
     </Section>
 
-    {/* Hero Content */}
-    <Section yPadding="pt-12 pb-16 sm:pt-14 sm:pb-20">
+    {/* Hero */}
+    <Section yPadding="pt-10 pb-8 sm:pt-12 sm:pb-10">
       <HeroOneButton
         title={
           <>
-            {'Calculate EMI & Interest\n'}
-            <span className="text-primary-500">without bank tricks</span>
+            {'Financial decisions feel complex\n'}
+            <span className="text-primary-500">
+              because important details are easy to miss.
+            </span>
           </>
         }
-        description="See exact EMI, total interest, and true loan cost in seconds. No hidden charges. No confusing bank math."
+        description="
+          Most financial products come with slabs, conditions,
+          exclusions, and calculations that are hard to compare clearly.
+          InterestCart helps you cut through that complexity and
+          understand — in seconds — whether a better choice was possible.
+        "
         button={
           <Link href="#calculator">
-            <Button xl>Start EMI Calculator →</Button>
+            <Button xl>
+              Check your decision →
+            </Button>
           </Link>
         }
       />
+
+      <p className="mt-6 text-center text-xs text-gray-400">
+        Built for clarity · No login · No ads · No hidden intent
+      </p>
     </Section>
   </Background>
 );
