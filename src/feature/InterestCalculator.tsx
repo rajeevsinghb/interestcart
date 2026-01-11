@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import { Section } from '../layout/Section';
 
 const BANKS = ['SBI', 'HDFC', 'ICICI', 'Axis'];
@@ -41,9 +42,7 @@ const InterestCalculator = () => {
           <button
             onClick={() => setProduct('fd')}
             className={`rounded-full px-5 py-2 text-sm font-medium ${
-              product === 'fd'
-                ? 'bg-primary-500 text-white'
-                : 'bg-gray-100'
+              product === 'fd' ? 'bg-primary-500 text-white' : 'bg-gray-100'
             }`}
           >
             Fixed Deposit
@@ -106,9 +105,7 @@ const InterestCalculator = () => {
 
           {compareEnabled && (
             <div>
-              <label className="text-sm text-gray-700">
-                Select Your Bank
-              </label>
+              <label className="text-sm text-gray-700">Select Your Bank</label>
               <select
                 value={selectedBank}
                 onChange={(e) => setSelectedBank(e.target.value)}

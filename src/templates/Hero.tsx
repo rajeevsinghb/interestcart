@@ -35,9 +35,7 @@ const Hero = () => (
         "
         button={
           <Link href="#calculator">
-            <Button xl>
-              Check your decision →
-            </Button>
+            <Button xl>Check your decision →</Button>
           </Link>
         }
       />

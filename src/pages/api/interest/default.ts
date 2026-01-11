@@ -1,9 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+
 import { supabase } from '../../../lib/db';
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse
+  res: NextApiResponse,
 ) {
   if (req.method !== 'GET') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -11,13 +12,15 @@ export default async function handler(
 
   const { data, error } = await supabase
     .from('interest_rules')
-    .select(`
+    .select(
+      `
       interest_rate,
       banks (
         bank_name,
         website_url
       )
-    `)
+    `,
+    )
     .limit(5);
 
   if (error) {
